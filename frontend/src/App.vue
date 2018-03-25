@@ -5,7 +5,7 @@
             <b-navbar-brand class="mr-auto"><h2 id="my-name">Liam Abbott</h2></b-navbar-brand>
             <b-navbar-nav>
               <b-nav-item to="about">About</b-nav-item>
-              <b-nav-item to="work">Work</b-nav-item>
+              <b-nav-item to="projects">Projects</b-nav-item>
               <b-nav-item to="resume">R&#233;sum&#233;</b-nav-item>
               <b-nav-item href="https://github.com/liameabbott" target="_blank"><font-awesome-icon :icon="githubIcon"></font-awesome-icon></b-nav-item>
               <b-nav-item href="https://www.linkedin.com/in/liameabbott" target="_blank"><font-awesome-icon :icon="linkedinIcon"></font-awesome-icon></b-nav-item>
