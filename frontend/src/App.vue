@@ -6,7 +6,7 @@
             <b-navbar-nav>
               <b-nav-item to="about">About</b-nav-item>
               <b-nav-item to="projects">Projects</b-nav-item>
-              <b-nav-item to="resume">R&#233;sum&#233;</b-nav-item>
+              <b-nav-item href="/static/myresume.pdf" target="_blank">R&#233;sum&#233;</b-nav-item>
               <b-nav-item href="https://github.com/liameabbott" target="_blank"><font-awesome-icon :icon="githubIcon"></font-awesome-icon></b-nav-item>
               <b-nav-item href="https://www.linkedin.com/in/liameabbott" target="_blank"><font-awesome-icon :icon="linkedinIcon"></font-awesome-icon></b-nav-item>
             </b-navbar-nav>
@@ -43,7 +43,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 #my-name {
   margin-bottom: 0;
